@@ -27,35 +27,35 @@ Developed by: Subhash Dasyam, March 2025
 ### Basic Installation
 
 ```bash
-pip install simplerdb
+pip install pip install git+https://github.com/subhashdasyam/simplerdb.git
 ```
 
 ### With Specific Database Support
 
 ```bash
 # MySQL/MariaDB support
-pip install simplerdb[mysql]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[mysql]"
 
 # PostgreSQL support
-pip install simplerdb[postgres]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[postgres]"
 
 # PostgreSQL with vector support
-pip install simplerdb[pgvector]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[pgvector]"
 
 # Microsoft SQL Server support
-pip install simplerdb[mssql]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[mssql]"
 
 # Oracle support
-pip install simplerdb[oracle]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[oracle]"
 
 # Redis support
-pip install simplerdb[redis]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[redis]"
 
 # ChromaDB support
-pip install simplerdb[chromadb]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[chromadb]"
 
 # All databases
-pip install simplerdb[all]
+pip install "git+https://github.com/subhashdasyam/simplerdb.git#egg=simplerdb[all]"
 ```
 
 ## Quick Start
